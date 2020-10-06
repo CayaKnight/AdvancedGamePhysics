@@ -63,7 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ObjectOscillation.cs" />
+    <Compile Include="Assets\Scripts\ObjectOscillation.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/jlcar/_SchoolStuff/_Adv Game Physics/AdvancedGamePhysics/Cupcake Dash/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
