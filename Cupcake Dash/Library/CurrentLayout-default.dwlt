@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 73
+  controlID: 37
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 78
+  controlID: 103
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 79
+  controlID: 104
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 0}
   m_Scope: 1
-  m_SplitterFlex: 0.50955415
+  m_SplitterFlex: 0.2
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -460,21 +460,21 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Materials/PNGs
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Materials/PNGs
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\Users\jlcar\_SchoolStuff\_Adv Game Physics\AdvancedGamePhysics\Cupcake
+  m_LastProjectPath: C:\Users\alexa\Documents\GitHub\AdvancedGamePhysics\Cupcake
     Dash
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 62340000
-    m_LastClickedID: 13410
-    m_ExpandedIDs: 000000005034000058340000
+    m_SelectedIDs: f8330000
+    m_LastClickedID: 13304
+    m_ExpandedIDs: 00000000f0330000f6330000f833000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050340000
+    m_ExpandedIDs: 00000000f0330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000042300000e4460000a23200006c360000703600007c3600002e370000b0370000e63100002432000056320000d0320000d4330000ce33000040320000ee4400002c3d0000ae3d0000aa3c000000000000743e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -625,9 +625,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: acc5ffff
-      m_LastClickedID: -14932
-      m_ExpandedIDs: 48d2ffff84e8ffff5af9ffff62f9ffff70fbffff
+      m_SelectedIDs: 04340000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 02f1ffff3ef8ffff70fbffff08370000343700003c390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -687,9 +687,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.031858705, y: -4.703402, z: 14.030538}
+    m_Target: {x: 3.5730298, y: 3.4684105, z: 0.4988906}
     speed: 2
-    m_Value: {x: 0.031858705, y: -4.703402, z: 14.030538}
+    m_Value: {x: 3.5730298, y: 3.4684105, z: 0.4988906}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 31
@@ -735,13 +735,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.20552598, y: 0.0038169126, z: -0.00078138616, w: 0.97865623}
+    m_Target: {x: 0.17466679, y: -0.5676061, z: 0.12471739, w: 0.79486376}
     speed: 2
-    m_Value: {x: 0.2055235, y: 0.0038168668, z: -0.00078137673, w: 0.97864443}
+    m_Value: {x: 0.17402582, y: -0.5641952, z: 0.123080954, w: 0.7976528}
   m_Size:
-    m_Target: 19.72421
+    m_Target: 1.4289418
     speed: 2
-    m_Value: 19.72421
+    m_Value: 1.428992
   m_Ortho:
     m_Target: 0
     speed: 2
