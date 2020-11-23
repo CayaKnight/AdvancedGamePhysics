@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 41a61d664c56339498c8d9de696cb64a
+guid: 6675b46d1d145a64e881c681c95793a0
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rounded_Rectangle_1_Back_Inflation_Material
-    second: {fileID: 2100000, guid: d29c442c85548964fa212038e11f677f, type: 2}
+    second: {fileID: 2100000, guid: 3a6baadbb4f1fcf4b9f3b2bca0b4f778, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rounded_Rectangle_1_Extrusion_Material
-    second: {fileID: 2100000, guid: 311e82ae6fe5cd7418624a2c38466b2b, type: 2}
+    second: {fileID: 2100000, guid: d223f17e32e22e446b19ecddf3954ba1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rounded_Rectangle_1_Front_Inflation_Material
-    second: {fileID: 2100000, guid: d29c442c85548964fa212038e11f677f, type: 2}
+    second: {fileID: 2100000, guid: db68806dab581864ba40a7a8c3b686dc, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -50,13 +50,13 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 0.011
-    meshCompression: 0
-    addColliders: 0
+    meshCompression: 3
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
+    importCameras: 1
     importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -79,7 +79,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []

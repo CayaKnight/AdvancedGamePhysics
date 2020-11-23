@@ -1,31 +1,39 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
-    public float jumpHeight;
-    private Rigidbody rb;
-    // Start is called before the first frame update
+    private CharacterController controller;
+    public float speed=5.0f;
+    private Vector3 moveVector;
+    private float verticalVelocity=0.0f;
+    private float gravity = 12.0f;
+
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody>();
+        controller = GetComponent<CharacterController>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        //keeps the player always moving forward
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        //turns left when the left arrow is pressed
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-            transform.Rotate(0, -90, 0);
-        //turns right when the right arrow is pressed
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-            transform.Rotate(0, 90, 0);
-        //makes the player jump when the spce bar is pressed
-        if (Input.GetKeyDown(KeyCode.Space))
-            rb.AddForce(0, jumpHeight, 0, ForceMode.Impulse);
+        moveVector = Vector3.zero;
+
+        if (controller.isGrounded)
+        {
+            verticalVelocity = -0.5f;
+        }
+        else
+        {
+            verticalVelocity -= gravity;
+        }
+        moveVector.x = Input.GetAxisRaw("Horizontal")*speed;
+        moveVector.y = verticalVelocity;
+        moveVector.z = speed;
+        controller.Move(moveVector * Time.deltaTime);
+   
     }
 }

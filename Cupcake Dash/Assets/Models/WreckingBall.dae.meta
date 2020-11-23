@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: c3a08342fd27f3540a7860fc560cfed8
+guid: bee4bd43de847834e9c00d75564931e6
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rectangle_1_Back_Inflation_Material
+    second: {fileID: 2100000, guid: 900a5f859aaaa2849849bf716ab45f59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rectangle_1_Extrusion_Material
+    second: {fileID: 2100000, guid: 900a5f859aaaa2849849bf716ab45f59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rectangle_1_Front_Inflation_Material
+    second: {fileID: 2100000, guid: 900a5f859aaaa2849849bf716ab45f59, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -34,9 +49,9 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.01
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
@@ -80,7 +95,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

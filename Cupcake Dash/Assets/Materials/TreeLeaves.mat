@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TreeLeaves
-  m_Shader: {fileID: 4800000, guid: 19e6d532a25036b4ca2085b4a0595c6d, type: 3}
+  m_Shader: {fileID: 4800000, guid: cfb5dae8d1ff73e428405e169d9276a7, type: 3}
   m_ShaderKeywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

@@ -1,9 +1,59 @@
 fileFormatVersion: 2
-guid: a83729097bc56ff429003e275b9e5517
+guid: 8b139abe39ed8df47bcd94f91ddde0d0
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_335
+    second: {fileID: 2100000, guid: c06027fb98749ad449fedde3b45f76cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_337
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_339
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_341
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_343
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_345
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_347
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_349
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_351
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_353
+    second: {fileID: 2100000, guid: 44c26428cda33cd4fbc1f8c236cbe32b, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -22,7 +72,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -31,28 +81,28 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
-    meshCompression: 0
-    addColliders: 0
+    globalScale: 10
+    meshCompression: 3
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
+    preserveHierarchy: 1
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    meshOptimizationFlags: -1
+    meshOptimizationFlags: 1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -80,14 +130,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 10
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0
