@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 moveVector;
     private float verticalVelocity=0.0f;
     private float gravity = 12.0f;
+    private bool isDead = false;
 
     void Start()
     {
@@ -20,6 +21,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if(isDead)
+        {
+            return;
+        }
         moveVector = Vector3.zero;
 
         if (controller.isGrounded)
@@ -35,5 +41,25 @@ public class PlayerMovement : MonoBehaviour
         moveVector.z = speed;
         controller.Move(moveVector * Time.deltaTime);
    
+    }
+
+    public void setspeed(int modifier)
+    {
+        speed += 5.0f;
+    }
+
+    private void OnControllerHit(ControllerColliderHit hit)
+    {
+        if(hit.point.z > transform.position.z + controller.radius)
+        {
+            Death();
+        }
+    }
+
+    private void Death()
+    {
+        Debug.Log("dead");
+        isDead = true;
+        GetComponent<Score>().OnDeath();
     }
 }
