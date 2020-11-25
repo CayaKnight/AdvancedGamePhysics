@@ -525,6 +525,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cookie (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8b139abe39ed8df47bcd94f91ddde0d0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -718087545184816987, guid: 8b139abe39ed8df47bcd94f91ddde0d0,
         type: 3}
       propertyPath: m_Convex
