@@ -416,10 +416,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5371678104662344635}
     m_Modifications:
+    - target: {fileID: 669381152965869768, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_TagString
+      value: DeathObject
+      objectReference: {fileID: 0}
     - target: {fileID: 1421199205324299985, guid: c12df080a6312924582bd24d9371a4a9,
         type: 3}
       propertyPath: m_Name
       value: Pendulum
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421199205324299985, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2291813247650099157, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3335603425453383935, guid: c12df080a6312924582bd24d9371a4a9,
         type: 3}
@@ -566,10 +581,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5371678104662344635}
     m_Modifications:
+    - target: {fileID: 669381152965869768, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_TagString
+      value: DeathObject
+      objectReference: {fileID: 0}
     - target: {fileID: 1421199205324299985, guid: c12df080a6312924582bd24d9371a4a9,
         type: 3}
       propertyPath: m_Name
       value: Pendulum (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421199205324299985, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2291813247650099157, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3335603425453383935, guid: c12df080a6312924582bd24d9371a4a9,
         type: 3}
@@ -791,10 +821,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5371678104662344635}
     m_Modifications:
+    - target: {fileID: 669381152965869768, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_TagString
+      value: DeathObject
+      objectReference: {fileID: 0}
     - target: {fileID: 1421199205324299985, guid: c12df080a6312924582bd24d9371a4a9,
         type: 3}
       propertyPath: m_Name
       value: Pendulum (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421199205324299985, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2291813247650099157, guid: c12df080a6312924582bd24d9371a4a9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3335603425453383935, guid: c12df080a6312924582bd24d9371a4a9,
         type: 3}

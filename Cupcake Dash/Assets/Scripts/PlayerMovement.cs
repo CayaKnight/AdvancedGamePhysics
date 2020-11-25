@@ -48,13 +48,21 @@ public class PlayerMovement : MonoBehaviour
         speed += 5.0f;
     }
 
-    private void OnControllerHit(ControllerColliderHit hit)
+    private void OnTriggerEnter(Collider col)
     {
-        if(hit.point.z > transform.position.z + controller.radius)
+        if (col.gameObject.tag == "DeathObject")
         {
             Death();
         }
     }
+
+    //private void OnControllerHit(ControllerColliderHit hit)
+    //{
+        //if(hit.point.z > transform.position.z + controller.radius)
+        //{
+            //Death();
+        //}
+    //}
 
     private void Death()
     {

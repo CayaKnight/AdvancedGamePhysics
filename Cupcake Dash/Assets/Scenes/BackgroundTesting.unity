@@ -273,11 +273,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 366615601}
-  - component: {fileID: 366615600}
   - component: {fileID: 366615599}
   - component: {fileID: 366615603}
   - component: {fileID: 366615598}
   - component: {fileID: 366615602}
+  - component: {fileID: 366615600}
   m_Layer: 0
   m_Name: PlayerObject
   m_TagString: Player
@@ -314,20 +314,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!136 &366615600
-CapsuleCollider:
+--- !u!65 &366615600
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366615597}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.3
-  m_Height: 1.74
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.911794, z: 0.31565094}
+  m_Center: {x: 0, y: 0.045306325, z: -0.010093689}
 --- !u!4 &366615601
 Transform:
   m_ObjectHideFlags: 0
@@ -988,6 +987,8 @@ MonoBehaviour:
   - {fileID: 4789164034581088912, guid: e9dc41f97c0384c45bb9cdc8a33b9453, type: 3}
   - {fileID: 4789164034581088912, guid: e223ca246c701dd4ea456d1ad61f4afc, type: 3}
   - {fileID: 4789164034581088912, guid: 707fda9346654ec48916e6e46f296971, type: 3}
+  - {fileID: 4789164034581088912, guid: 078ec73cf4fa0ce408c7cadf96477d34, type: 3}
+  - {fileID: 4789164034581088912, guid: ea4053831281c3b4988eaa75ac3f66c4, type: 3}
   activeTiles: []
 --- !u!4 &1977245736
 Transform:
