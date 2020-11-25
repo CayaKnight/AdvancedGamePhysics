@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private AudioSource deathSound;
     private CharacterController controller;
     public float speed=5.0f;
     private Vector3 moveVector;
@@ -15,13 +17,14 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        
+        deathSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.Escape))
+            SceneManager.LoadScene("MainMenu");
         if(isDead)
         {
             return;
@@ -67,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
     private void Death()
     {
         Debug.Log("dead");
+        deathSound.Play();
         isDead = true;
         GetComponent<Score>().OnDeath();
     }

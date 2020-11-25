@@ -8,6 +8,7 @@ public class Score : MonoBehaviour
 
     private float score = 0.0f;
     public Text scoretext;
+    public Text deathText;
     private int difficultylevel = 1;
     private int maxlevel = 10;
     private int scoretochangelvl = 10;
@@ -25,6 +26,7 @@ public class Score : MonoBehaviour
 
         if(isDead)
         {
+            deathText.text = ("You have died!");
             return;
         }
         if (score >= scoretochangelvl)
