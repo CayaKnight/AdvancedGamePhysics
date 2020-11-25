@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 127
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 59
+  controlID: 70
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 60
+  controlID: 71
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -460,21 +460,21 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/Skybox/Epic_GloriousPink
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Materials/Skybox/Epic_GloriousPink
+  - Assets/Scenes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\alexa\Documents\GitHub\AdvancedGamePhysics\Cupcake
     Dash
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 14}
-    m_SelectedIDs: ee8f0000
-    m_LastClickedID: 36846
-    m_ExpandedIDs: 00000000228f00002e8f0000f08f000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 408f0000
+    m_LastClickedID: 36672
+    m_ExpandedIDs: 00000000228f00002e8f0000328f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -546,7 +546,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -627,7 +627,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 50fbffff
+      m_ExpandedIDs: 9e77fbffcc29fcffee29fcff3083fcffbc92fdff82effdffde7dfeff30d3feffbedafefffae2feff00e3feff50fbffff20a900004cad00008cc90000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -687,9 +687,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 27.010878, y: 10.57032, z: 37.248608}
+    m_Target: {x: 589.4121, y: 190.45529, z: 304.09656}
     speed: 2
-    m_Value: {x: 27.010878, y: 10.57032, z: 37.248608}
+    m_Value: {x: 589.4121, y: 190.45529, z: 304.09656}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 31
@@ -735,13 +735,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14771713, y: 0.34180838, z: -0.054489575, w: -0.9265165}
+    m_Target: {x: -0.16802941, y: 0.029303674, z: -0.0049776733, w: -0.9853629}
     speed: 2
-    m_Value: {x: -0.14771307, y: 0.34179896, z: -0.054488074, w: -0.92649096}
+    m_Value: {x: -0.1680246, y: 0.029302835, z: -0.004977531, w: -0.9853347}
   m_Size:
-    m_Target: 1.4289418
+    m_Target: 1459.4199
     speed: 2
-    m_Value: 1.4289418
+    m_Value: 1459.4199
   m_Ortho:
     m_Target: 0
     speed: 2
