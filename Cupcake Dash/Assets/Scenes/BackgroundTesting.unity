@@ -323,7 +323,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366615597}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1.911794, z: 0.31565094}
@@ -336,7 +336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366615597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 55}
+  m_LocalPosition: {x: 0, y: 1.43, z: 55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1471703622}
@@ -355,7 +355,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 1.74
-  m_Radius: 0.33
+  m_Radius: 0.54
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -1034,6 +1034,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474116697}
   m_CullTransparentMesh: 0
+--- !u!1 &1770470073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770470075}
+  - component: {fileID: 1770470074}
+  m_Layer: 0
+  m_Name: CurvedWorld
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1770470074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770470073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004adfa3f34e04e4d99844e65012dccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Curvature: {x: 0, y: 2, z: 0}
+  Distance: 0
+  CurvatureScaleUnit: 1000
+--- !u!4 &1770470075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770470073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.8398204, y: 1.2818832, z: 61.645588}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819367442
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,10 +1207,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilePrefabs:
   - {fileID: 4789164034581088912, guid: e9dc41f97c0384c45bb9cdc8a33b9453, type: 3}
-  - {fileID: 4789164034581088912, guid: e223ca246c701dd4ea456d1ad61f4afc, type: 3}
-  - {fileID: 4789164034581088912, guid: 707fda9346654ec48916e6e46f296971, type: 3}
-  - {fileID: 4789164034581088912, guid: 078ec73cf4fa0ce408c7cadf96477d34, type: 3}
+  - {fileID: 4789164034581088912, guid: d09b86fe13ad0e34fbce0d4dd83da1a9, type: 3}
+  - {fileID: 4789164034581088912, guid: eb5498f191390aa4aa9c42ed8a9797cb, type: 3}
+  - {fileID: 4789164034581088912, guid: a6734713e2fed684d8e24e1abec7d427, type: 3}
+  - {fileID: 4789164034581088912, guid: 6a8266b7be922f54694f732691d9be8d, type: 3}
+  - {fileID: 4789164034581088912, guid: b5d028501034feb45b3eeca2b023d73e, type: 3}
   - {fileID: 4789164034581088912, guid: ea4053831281c3b4988eaa75ac3f66c4, type: 3}
+  - {fileID: 4789164034581088912, guid: 707fda9346654ec48916e6e46f296971, type: 3}
+  - {fileID: 4789164034581088912, guid: e223ca246c701dd4ea456d1ad61f4afc, type: 3}
+  - {fileID: 4789164034581088912, guid: 078ec73cf4fa0ce408c7cadf96477d34, type: 3}
   activeTiles: []
 --- !u!4 &1977245736
 Transform:
@@ -1429,6 +1480,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CakeTile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789164034581088912, guid: e9dc41f97c0384c45bb9cdc8a33b9453,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5371678104662344635, guid: e9dc41f97c0384c45bb9cdc8a33b9453,
         type: 3}
