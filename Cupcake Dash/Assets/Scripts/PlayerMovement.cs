@@ -23,10 +23,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            SceneManager.LoadScene("MainMenu");
         if(isDead)
         {
+            if (Input.GetKeyDown(KeyCode.Escape))
+                SceneManager.LoadScene("MainMenu");
             return;
         }
         moveVector = Vector3.zero;
@@ -69,9 +69,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Death()
     {
+        isDead = true;
         Debug.Log("dead");
         deathSound.Play();
-        isDead = true;
         GetComponent<Score>().OnDeath();
     }
 }
